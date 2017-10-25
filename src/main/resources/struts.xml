@@ -7,12 +7,14 @@
  
     <constant name="struts.devMode" value="true" />
  
-    <package name="basicstruts2" extends="struts-default">
- 
+    <package name="basicstruts2" namespace="/" extends="struts-default">
         <action name="index">
             <result>/index.jsp</result>
-        </action>
- 
+        </action> 
+        
+<!--         <action name="login" class="com.myapp.login.LoginAction"> -->
+<!--             <result name="success">jsp/login/index.jsp</result> -->
+<!--         </action>  -->
     </package>
  
 </struts>
