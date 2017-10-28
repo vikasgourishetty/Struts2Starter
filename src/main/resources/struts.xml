@@ -12,9 +12,9 @@
             <result>/index.jsp</result>
         </action> 
         
-<!--         <action name="login" class="com.myapp.login.LoginAction"> -->
-<!--             <result name="success">jsp/login/index.jsp</result> -->
-<!--         </action>  -->
+        <action name="login" class="com.myapp.action.LoginAction">
+            <result name="success">hello.jsp</result>
+        </action> 
     </package>
  
 </struts>
