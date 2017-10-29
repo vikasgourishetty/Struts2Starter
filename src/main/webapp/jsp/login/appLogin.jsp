@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/login/login.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
